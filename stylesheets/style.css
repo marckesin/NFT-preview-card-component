@@ -125,6 +125,7 @@ span {
   color: hsl(178, 100%, 50%);
   display: flex;
   gap: 8px;
+  flex-wrap: nowrap;
 }
 
 .nft-card {
@@ -154,6 +155,7 @@ span {
   gap: 7px;
   color: hsl(215, 51%, 70%);
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .opacity {
@@ -169,6 +171,7 @@ span {
   bottom: 0;
   opacity: 0;
   z-index: 1;
+  transition: 0.4s;
 }
 
 .view {
@@ -183,4 +186,5 @@ span {
   bottom: 0;
   opacity: 0;
   z-index: 2;
+  transition: 0.4s;
 }
