@@ -33,13 +33,6 @@ ul {
   font-weight: normal;
 }
 
-h2 {
-  color: hsl(0, 0%, 100%);
-  margin: 17px 0;
-  display: inline-block;
-  font-weight: 600;
-}
-
 hr {
   border-color: hsl(215, 32%, 27%);
 }
@@ -76,6 +69,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
 
 .container-creator {
@@ -107,6 +101,14 @@ span {
   opacity: 1;
 }
 
+.heading {
+  color: hsl(0, 0%, 100%);
+  margin: 17px 0;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+}
+
 .image {
   height: 100%;
   width: auto;
@@ -123,9 +125,11 @@ span {
 
 .nft-amount {
   color: hsl(178, 100%, 50%);
+  flex: auto;
   display: flex;
-  gap: 8px;
+  align-items: center;
   flex-wrap: nowrap;
+  gap: 7px;
 }
 
 .nft-card {
